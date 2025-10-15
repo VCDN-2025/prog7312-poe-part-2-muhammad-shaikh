@@ -173,3 +173,31 @@ PART 1: https://youtu.be/KDfixBBLBog
 
 PART 2: https://youtu.be/Ryh3prnk9hQ
 
+**Bibliography**
+
+Windows Forms overview — https://learn.microsoft.com/dotnet/desktop/winforms/overview/
+
+ErrorProvider component — https://learn.microsoft.com/dotnet/api/system.windows.forms.errorprovider
+
+OpenFileDialog class — https://learn.microsoft.com/dotnet/api/system.windows.forms.openfiledialog
+
+ListView control — https://learn.microsoft.com/dotnet/api/system.windows.forms.listview
+
+DateTimePicker control — https://learn.microsoft.com/dotnet/api/system.windows.forms.datetimepicker
+
+Anchoring & Docking in WinForms — https://learn.microsoft.com/dotnet/desktop/winforms/controls/anchoring-and-docking-child-controls-in-windows-forms
+
+Project resources (images, strings) in VS — https://learn.microsoft.com/visualstudio/ide/designers/managing-resources-in-desktop-apps
+
+Win32 placeholder for TextBox (EM_SETCUEBANNER) — https://learn.microsoft.com/windows/win32/controls/em-setcuebanner
+
+Dictionary<TKey,TValue> — https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+
+SortedDictionary<TKey,TValue> — https://learn.microsoft.com/dotnet/api/system.collections.generic.sorteddictionary-2
+
+HashSet<T> — https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+
+Stack<T> — https://learn.microsoft.com/dotnet/api/system.collections.generic.stack-1
+
+Queue<T> — https://learn.microsoft.com/dotnet/api/system.collections.generic.queue-1
+
