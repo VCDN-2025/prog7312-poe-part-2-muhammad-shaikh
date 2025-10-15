@@ -1,16 +1,16 @@
-**Municipal Services SA — Windows Forms (.NET Framework)
-**
+**Municipal Services SA — Windows Forms**
+
 A C# Windows Forms application that helps South African residents report municipal issues, browse local events & announcements, and (foundation for) track request status. Built for PROG7312 Part 1 & Part 2 with an emphasis on custom data structures and user-centric UX.
 
-Tech stack: C# (.NET Framework 4.8), WinForms, Visual Studio 2022
+**Tech stack: C# (.NET Framework 4.8), WinForms, Visual Studio 2022**
 
 
 **Features**
 Part 1
 
-Main Menu (polished UI): Card-based landing page with header banner and municipality logo.
+**Main Menu (polished UI):** Card-based landing page with header banner and municipality logo.
 
-Report Issues:
+**Report Issues:**
 
 Location, category, rich description, and media attachments (JPG/PNG/PDF).
 
@@ -24,7 +24,7 @@ Disabled (placeholder): Local Events & Announcements, Service Request Status.
 
 **Part 2
 **
-Local Events & Announcements:
+**Local Events & Announcements:**
 
 Events list with search, date range, category filter, and sort by Date/Category/Name.
 
@@ -34,7 +34,7 @@ Recommendations: events suggested based on recent searches (category preference)
 
 Data structures showcased: SortedDictionary, Dictionary, HashSet, Stack, Queue, and custom SimplePriorityQueue<Event>.
 
-Screens
+**Screens**
 
 MainForm — header banner, logo (top-right), three action cards: Report Issues, Local Events & Announcements, Service Status (coming).
 
@@ -62,13 +62,13 @@ Used in events module as UpcomingByDate to manage next events by soonest date.
 
 **Standard (explicitly required)**
 
-Primary Storage:
+**Primary Storage:**
 
 SortedDictionary<DateTime, List<Event>> _byDate — primary, naturally sorted by calendar day.
 
 Dictionary<string, Event> _byId — O(1) lookup by event ID.
 
-Event Management:
+**Event Management:**
 
 Stack<Event> LastViewed — records event details the user opened most recently (LIFO).
 
@@ -76,17 +76,10 @@ Queue<Event> NewSubmissions — staging area for new events (FIFO).
 
 SimplePriorityQueue<Event> UpcomingByDate — prioritises soonest events.
 
-Uniqueness / Lookup:
+**Uniqueness / Lookup:**
 
 HashSet<EventCategory> _categories — unique category set to populate the filter dropdown.
 
-These choices align with the Part 2 technical requirements:
-
-Stacks/Queues/Priority Queues (15) ✅
-
-Hash Tables/Dictionaries/Sorted Dictionaries (15) ✅
-
-Sets (10) ✅
 
 **How to Build (Visual Studio 2022)**
 
@@ -176,6 +169,7 @@ Responsive layout using Anchors and resize handlers for picture boxes and button
 Accessibility: tab order, meaningful button text, modal forms for flows.
 
 **Demo Video & Repo**
+PART 1: https://youtu.be/KDfixBBLBog
 
-YouTube demo link: add your video link here
+PART 2: https://youtu.be/Ryh3prnk9hQ
 
